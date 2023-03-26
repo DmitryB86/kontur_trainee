@@ -1,8 +1,9 @@
 n,m = map(int, input().split())
 field = []
 for i in range(n):
-    row = []
+
     for j in range(m):
+        row = map(str, input().split())
         row.append(input())
     field.append(row)
     # for j in range(4):
